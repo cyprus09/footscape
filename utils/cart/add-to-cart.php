@@ -32,12 +32,12 @@ $product_quantity = intval($data['quantity']);
 $product_size = intval($data['size']);
 
 // Validate inputs
-if ($product_quantity <= 0 || $product_quantity > 10) {
+if ($product_quantity <= 0) {
   echo json_encode(['success' => false, 'message' => 'Invalid quantity']);
   exit;
 }
 
-if ($product_size < 4 || $product_size > 11) {
+if ($product_size < 6 || $product_size > 12) {
   echo json_encode(['success' => false, 'message' => 'Invalid size']);
   exit;
 }
