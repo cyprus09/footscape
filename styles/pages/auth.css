@@ -45,6 +45,7 @@ body {
 }
 
 .auth-button {
+  font-family: var(--dela-gothic-one);
   cursor: pointer;
   background-color: var(--white);
 }
@@ -212,6 +213,7 @@ body {
 }
 
 .toggle-button {
+  font-family: var(--dela-gothic-one);
   background-color: var(--white);
   color: var(--white);
   border-radius: 0.7em;

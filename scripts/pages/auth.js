@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+ document.addEventListener("DOMContentLoaded", function () {
   const container = document.getElementById("container");
   const registerBtn = document.getElementById("registerToggle");
   const loginBtn = document.getElementById("loginToggle");

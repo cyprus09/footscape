@@ -42,8 +42,8 @@
   margin: 0;
 }
 
-.product-price {
-  font-size: var(--fs-7);
+.product-price-info {
+  font-size: var(--fs-6);
   font-weight: var(--fw-600);
   color: var(--dark-blue);
   margin: 0;
@@ -51,7 +51,7 @@
 
 .product-description {
   font-family: var(--helvetica-neue);
-  font-size: var(--fs-6);
+  font-size: var(--fs-5);
   color: var(--gray);
   line-height: 1.6;
   margin: 1rem 0;

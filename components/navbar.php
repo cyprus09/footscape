@@ -9,10 +9,15 @@ $searchValue = isset($_GET['search']) ? htmlspecialchars($_GET['search']) : '';
 ?>
 
 <header class="navbar">
-    <!-- Logo -->
-    <a href="../pages/home.php">
-        <img src="../assets/logos/white-logo.svg" alt="FootScape" class="navbar-logo">
-    </a>
+    <!-- Logo and Welcome Message -->
+    <div class="navbar-left">
+        <a href="../pages/home.php">
+            <img src="../assets/logos/white-logo.svg" alt="FootScape" class="navbar-logo">
+        </a>
+        <?php if (isset($_SESSION['username'])): ?>
+            <span class="welcome-message">Hello <?php echo htmlspecialchars($_SESSION['username']); ?> !</span>
+        <?php endif; ?>
+    </div>
     <div class="link-wrapper">
         <!-- Navigation Links -->
         <a href="../pages/catalog.php" class="nav-link">Explore</a>

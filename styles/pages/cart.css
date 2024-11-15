@@ -219,6 +219,7 @@ h1 {
 }
 
 .checkout-btn {
+  font-family: var(--dela-gothic-one);
   cursor: pointer;
   background-color: var(--white);
 }
@@ -229,9 +230,10 @@ h1 {
 }
 
 .continue-shopping {
+  font-family: var(--dela-gothic-one);
   display: inline-block;
   text-decoration: none;
-  width: 18em;
+  width: 19em;
   background-color: var(--white);
   margin-top: 2em;
 }

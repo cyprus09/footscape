@@ -113,7 +113,8 @@ h2 {
 }
 
 .continue-shopping-btn {
-  width: 18em;
+  font-family: var(--dela-gothic-one);
+  width: 20em;
   border-radius: 0.7em;
 }
 

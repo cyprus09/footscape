@@ -47,7 +47,7 @@ function addToCart(name, price) {
 
   // Check if selected quantity is valid
   if (selectedQuantity > maxQuantity) {
-      alert(`Sorry, only ${maxQuantity} items available for size UK ${selectedSize}`);
+      alert(`Sorry, only ${maxQuantity} items available for size US ${selectedSize}`);
       return;
   }
 
