@@ -17,14 +17,26 @@ Footscape is a dynamic e-commerce platform offering a curated selection of the l
 
 ## Features
 
+- **User Authentication**: Users can create accounts, log in, and manage their profiles securely.
 - **Home Page**: Introduces the brand, featuring a search bar, new arrivals, and featured shoes. The homepage highlights trending products and collections.
-- **Catalog Page**: Displays the entire collection of products with filtering options (category, gender, brand, and price range) and sorting by popularity or price.
+- **Catalog Page**: Displays the entire collection of products with filtering options (category, gender, brand, and price range) and sorting by popularity or price. You can also search for your favourite options!
 - **Product Description Page**: Contains detailed information about each shoe, including brand, sizing options, high-quality images, and customer reviews. Users can add items to their cart directly from this page.
 - **Cart and Checkout Pages**: Provides a secure, session-based cart system allowing users to add, remove, and modify items. Users proceed through a seamless checkout process to finalize their purchases.
-- **User Authentication**: Users can create accounts, log in, and manage their profiles securely.
 - **Feedback Page**: Users can submit feedback on the products, website.
 - **Order Confirmation Page**: Page seen post submission of order to confirm order details.
 - **Responsive Design**: Optimized for both desktop and mobile devices to ensure a consistent user experience.
+
+ ## Screenshots
+
+| Page | Preview |
+|------|---------|
+| Auth Page | <img width="400" alt="Auth Page" src="https://github.com/user-attachments/assets/c9756b73-eaac-42a1-9333-04c60a25e0c7" /> |
+| Home Page | <img width="400" alt="Home Page" src="https://github.com/user-attachments/assets/df2f8284-3758-46af-a5b6-5f469a432c2f" /><br><img width="400" alt="Home Page" src="https://github.com/user-attachments/assets/971fe9e9-31be-461d-905b-6cea89696ad9" /><br><img width="400" alt="Home Page" src="https://github.com/user-attachments/assets/9e86d20f-f5ee-4892-a02a-d02b3c4bc3a9" /><br><img width="400" alt="Home Page" src="https://github.com/user-attachments/assets/ff6aff65-bbf0-4897-94a6-728e2e2193fb" /> |
+| Catalog Page | <img width="400" alt="Catalog Page" src="https://github.com/user-attachments/assets/44359ef5-5f2a-4c5c-b735-5ad7a01bcfc1" /><br><img width="400" alt="Catalog Page" src="https://github.com/user-attachments/assets/347685bb-2d05-49fe-aee6-cabd18c94d68" /> |
+| Product Description | <img width="400" alt="Product Description" src="https://github.com/user-attachments/assets/324d6527-301a-4bd4-b364-167063ada4b2" /> |
+| Cart & Checkout | <img width="400" alt="Cart & Checkout" src="https://github.com/user-attachments/assets/39d5b5e8-5304-49ad-a8b1-f875fc7965af" /> |
+| Order Confirmation and My Orders | <img width="400" alt="Order Confirmation" src="https://github.com/user-attachments/assets/b43abbd6-b78a-4b24-a899-448ad860f10f" /> |
+| Feedback Page | <img width="400" alt="Feedback Page" src="https://github.com/user-attachments/assets/15f0614d-7e4f-41ef-9cf6-608852a55fa7" /> |
 
 ## Tech Stack
 
